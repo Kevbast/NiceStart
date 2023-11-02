@@ -26,8 +26,8 @@
       android:layout_height="80dp"
       android:layout_marginTop="48dp"
       android:src="@drawable/ic_launcher_foreground"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="@id/guideline3"
+      app:layout_constraintStart_toStartOf="@id/guideline2"
       app:layout_constraintTop_toTopOf="parent" />
 
   <View
@@ -40,7 +40,7 @@
 
 
   <com.google.android.material.textfield.TextInputLayout
-      android:id="@+id/til1"
+      android:id="@+id/nombre"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
       android:layout_marginTop="48dp"
@@ -67,7 +67,7 @@
       android:layout_height="wrap_content"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-      app:layout_constraintTop_toBottomOf="@id/til1"
+      app:layout_constraintTop_toBottomOf="@id/nombre"
       app:passwordToggleEnabled="true"
       app:startIconDrawable="@drawable/contrase">
 
