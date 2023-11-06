@@ -21,7 +21,7 @@ public class Login extends AppCompatActivity {
         startActivity(intent);
     }
     public void openRegister(View v) {
-        Intent intent= new Intent(Login.this, LoginAlter.class);
+        Intent intent= new Intent(Login.this, Register2.class);
         startActivity(intent);
     }
 }//fin
