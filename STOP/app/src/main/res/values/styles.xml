@@ -9,7 +9,7 @@
         <item name="strokeColor">@android:color/white</item>
     </style>
 
-    <style name="ButtonFlat" >
+    <style name="ButtonFlat">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/purple_500</item>

@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/graduable_register"
-    tools:context="com.example.nicestart.Login">
-
+    android:background="@drawable/graduableregister"
+    tools:context=".Register2">
 
     <!--    android:src="@drawable/girl"-->
 
@@ -34,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.1"
-        android:background="@drawable/graduable_register">
+        android:background="@drawable/graduableregister">
 
     </View>
 
@@ -80,7 +79,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
-<!--EMAIL-->
+    <!--EMAIL-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/email"
         android:layout_width="0dp"
@@ -99,7 +98,7 @@
             android:alpha="0.6"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
-<!-- CONTRASEÑA-->
+    <!-- CONTRASEÑA-->
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/contraseña"
         android:layout_width="0dp"
@@ -157,7 +156,7 @@
         app:layout_constraintTop_toBottomOf="@id/confi_contra" />
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/cancelar"
         style="@style/buttonoutlined"
         android:text="Cancelar"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
@@ -179,7 +178,4 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.85" />
-
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>

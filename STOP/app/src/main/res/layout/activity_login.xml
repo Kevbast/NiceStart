@@ -91,17 +91,17 @@
       android:text="Login"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-
+      android:onClick="openMain"
       app:layout_constraintTop_toBottomOf="@id/contra" />
 
   <Button
       android:id="@+id/signup"
       style="@style/buttonoutlined"
+      android:onClick="openRegister"
       android:text="signup"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-      app:layout_constraintTop_toBottomOf="@+id/login"
-       />
+      app:layout_constraintTop_toBottomOf="@+id/login" />
 
 <!--LAS CONSTRAINTS -->
   <androidx.constraintlayout.widget.Guideline
