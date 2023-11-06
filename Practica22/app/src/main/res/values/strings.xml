@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spinner</string>
+    <string-array name="profesiones2">
+        <item> </item>
+        <item>Informátic@</item>
+        <item>Cociner@</item>
+        <item>Pintor/a</item>
+        <item>Profesor/a</item>
+
+    </string-array>
+
+
+</resources>
