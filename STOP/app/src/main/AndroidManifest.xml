@@ -25,9 +25,11 @@
         </activity>
         <activity
             android:name=".Register2"
-            android:exported="false"
+            android:exported="true"
             android:theme="@style/TemaPruebaNice"
-            android:parentActivityName=".Login"/>
+            android:parentActivityName=".Login">
+
+        </activity>
         <!-- le añadimos un tema para la actionbar-->
         <activity
             android:name=".LoginAlter"
