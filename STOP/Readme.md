@@ -10,7 +10,7 @@
 
 ### *Esta es la otra `ventana`,la cual **está comunicada** con la anterior imagen*
 
-![login activity](img/Register.png)
+![login activity](img/img.png)
 
 #### He creado otra ventana que está enlazada con la pantalla login,tiene una **barra superior** al igual que la de Register.
 ![login activity](img/main.png)
