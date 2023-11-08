@@ -13,7 +13,6 @@
         android:theme="@style/Theme.NiceStart"
         tools:targetApi="31">
 
-
         <activity
             android:name=".Login"
             android:exported="true"
@@ -27,7 +26,8 @@
         <activity
             android:name=".Register2"
             android:exported="false"
-            android:theme="@style/TemaPruebaNice"/>
+            android:theme="@style/TemaPruebaNice"
+            android:parentActivityName=".Login"/>
         <!-- le añadimos un tema para la actionbar-->
         <activity
             android:name=".LoginAlter"

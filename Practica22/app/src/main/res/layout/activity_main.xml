@@ -5,235 +5,192 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/button_border">
-    <EditText
-        android:id="@+id/NombreIntro"
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="218dp"
-        android:layout_marginBottom="16dp"
-        android:background="#4F9EED"
-        android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/editText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Nombre"
-        app:layout_constraintTop_toTopOf="parent"
-        ></EditText>
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="100dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="237dp"
-        android:background="#4F9DEC"
-        android:text=""
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Edad"
-        app:layout_constraintTop_toBottomOf="@+id/NombreIntro"></EditText>
+    android:background="@drawable/buttonborder">
 
     <TextView
-        android:id="@+id/Nombre"
+        android:id="@+id/labelNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nombre: "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        android:text="Nombre:"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
-
-    <TextView
-        android:id="@+id/Edad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="358dp"
-        android:layout_marginBottom="10dp"
-        android:text="Edad: "
-        app:layout_constraintBottom_toTopOf="@+id/Sexo"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Nombre" />
-
-    <TextView
-        android:id="@+id/Sexo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="358dp"
-        android:layout_marginBottom="15dp"
-        android:text="Sexo: "
-        app:layout_constraintBottom_toTopOf="@+id/Profes"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Edad" />
-
-    <TextView
-        android:id="@+id/Profes"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="329dp"
-        android:layout_marginBottom="10dp"
-        android:text="Profesión: "
-        app:layout_constraintBottom_toTopOf="@+id/Hobbie"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Sexo" />
-
-    <TextView
-        android:id="@+id/Hobbie"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="337dp"
-        android:layout_marginBottom="504dp"
-        android:text="Hobbies: "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Profes" />
-    <!-- CREAMOS LOS EDITEXT ,LAS LISTAS Y LOS BOTONES-->
-
-    <RadioGroup
-        android:id="@+id/radioGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="135dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Sexo"
-        app:layout_constraintTop_toBottomOf="@+id/editText">
-
-        <RadioButton
-            android:id="@+id/checkBox"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:clickable="false"
-            android:contextClickable="false"
-            android:text="Masculino"
-            app:buttonIconTint="#AF2E2E" />
-
-        <RadioButton
-            android:id="@+id/checkBox2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Femenino" />
-
-    </RadioGroup>
-
-    <Spinner
-        android:id="@+id/profesiones"
-        android:layout_width="245dp"
-        android:layout_height="23dp"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="71dp"
-        android:background="#4F9CEB"
-        android:backgroundTint="#4F9CEB"
-        android:dropDownWidth="match_parent"
-        android:popupBackground="@android:drawable/arrow_down_float"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Profes"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
-
-    <CheckBox
-        android:id="@+id/checkBox3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="45dp"
-        android:layout_marginBottom="49dp"
-        android:backgroundTint="@android:color/holo_purple"
-        android:text="H1"
-        app:layout_constraintBottom_toTopOf="@+id/Enviar"
-        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Hobbie" />
-
-    <CheckBox
-        android:id="@+id/checkBox4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginBottom="50dp"
-        android:text="H2"
-        app:layout_constraintBottom_toTopOf="@+id/Enviar"
-        app:layout_constraintStart_toEndOf="@+id/checkBox3"
-        app:layout_constraintTop_toBottomOf="@+id/profesiones" />
-
-    <CheckBox
-        android:id="@+id/checkBox5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="149dp"
-        android:layout_marginBottom="50dp"
-        android:text="H3"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/checkBox4"
-        app:layout_constraintTop_toBottomOf="@+id/profesiones" />
-
-    <Button
-        android:id="@+id/Enviar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="351dp"
-        android:backgroundTint="@color/white"
-        android:text="Enviar"
-        android:textColor="@color/black"
-        app:cornerRadius="1dp"
-        app:iconTint="#0E0D0D"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:strokeColor="#000000"
-        app:strokeWidth="2dp"
-
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         />
 
-    <Button
-        android:id="@+id/button2"
+    <EditText
+        android:id="@+id/NameIntro"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:background="#9BC3FF"
+        android:inputType="text"
+        android:hint="Introduce tu nombre"
+        app:layout_constraintBottom_toBottomOf="@id/labelNombre"
+        app:layout_constraintStart_toStartOf="@id/spinnerProfesion"
+        app:layout_constraintTop_toTopOf="@id/labelNombre"
+        />
+
+    <TextView
+        android:id="@+id/labelEdad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="351dp"
-        android:backgroundTint="@color/white"
-        android:textColor="@color/black"
-        android:text="Limpiar"
-        app:cornerRadius="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Edad:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelNombre"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp" />
+
+    <EditText
+        android:id="@+id/inputEdad"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:background="#9BC3FF"
+        android:hint="Introduce tu edad"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@id/labelEdad"
+        app:layout_constraintStart_toStartOf="@id/spinnerProfesion"
+        app:layout_constraintTop_toTopOf="@id/labelEdad" />
+
+    <TextView
+        android:id="@+id/labelSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelEdad"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp" />
+
+    <RadioGroup
+        android:id="@+id/sexo"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@id/labelSexo"
+        app:layout_constraintBottom_toBottomOf="@id/labelSexo"
+        app:layout_constraintStart_toStartOf="@id/spinnerProfesion">
+
+        <RadioButton
+            android:id="@+id/femenino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Femenino" />
+
+        <RadioButton
+            android:id="@+id/masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Masculino" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/labelProfesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profesión:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelSexo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp" />
+
+    <Spinner
+        android:id="@+id/spinnerProfesion"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:background="#9BC3FF"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/labelProfesion"
+        app:layout_constraintStart_toEndOf="@id/labelProfesion"
+        app:layout_constraintTop_toTopOf="@id/labelProfesion" />
+
+    <TextView
+        android:id="@+id/labelHobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hobbies:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelProfesion"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp" />
+
+    <LinearLayout
+        android:id="@+id/layoutCkHobbies"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="75dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/botonEnviar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/Enviar"
+        app:layout_constraintStart_toStartOf="@id/labelHobbies"
+        app:layout_constraintTop_toBottomOf="@id/labelHobbies">
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Basket" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ajedrez" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Muay thai" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonEnviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="Enviar"
+        android:backgroundTint="@color/white"
+        android:textColor="#000000"
         app:strokeColor="#000000"
-        app:strokeWidth="2dp"/>
+        app:strokeWidth="1dp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="@id/labelHobbies"
+        app:layout_constraintTop_toBottomOf="@id/layoutCkHobbies" />
+
+    <Button
+        android:id="@+id/botonLimpiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:text="Limpiar"
+        android:backgroundTint="@color/white"
+        android:textColor="#000000"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp"
+        app:cornerRadius="0dp"
+        app:layout_constraintStart_toStartOf="@id/labelHobbies"
+        app:layout_constraintTop_toBottomOf="@id/layoutCkHobbies" />
 
     <TextView
         android:id="@+id/Vista"
-        android:layout_width="318dp"
-        android:layout_height="139dp"
-        android:layout_marginStart="47dp"
-        android:layout_marginEnd="46dp"
-        android:layout_marginBottom="191dp"
-        android:text=""
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="75dp"
+        android:background="@color/white"
+        android:shadowColor="#E63D3D"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:background="@color/white"/>
-
+        app:layout_constraintStart_toStartOf="@id/labelHobbies"
+        app:layout_constraintTop_toBottomOf="@id/botonEnviar"
+        app:strokeColor="#000000"
+        app:strokeWidth="1dp"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
