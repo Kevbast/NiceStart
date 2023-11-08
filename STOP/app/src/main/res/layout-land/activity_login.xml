@@ -93,13 +93,14 @@
       android:text="Login"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-
+      android:onClick="openMain"
       app:layout_constraintTop_toBottomOf="@id/contra" />
 
   <Button
       android:id="@+id/signup"
       style="@style/buttonoutlined"
       android:text="signup"
+      android:onClick="openRegister"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
       app:layout_constraintTop_toBottomOf="@+id/login"
