@@ -20,6 +20,15 @@
       tools:layout_editor_absoluteX="0dp"
       tools:layout_editor_absoluteY="0dp" />
 
+  <!--Vista
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:alpha="0.7"
+      android:background="@drawable/gradientelogin">
+
+  </View>
+-->
   <ImageView
       android:id="@+id/logo"
       android:layout_width="80dp"
@@ -29,14 +38,6 @@
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
       app:layout_constraintTop_toTopOf="parent" />
-
-  <View
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:alpha="0.1"
-      android:background="@drawable/gradientelogin">
-
-  </View>
 
 
   <com.google.android.material.textfield.TextInputLayout
@@ -88,10 +89,11 @@
   <Button
       android:id="@+id/login"
       style="@style/ButtonFlat"
+      android:onClick="openMain"
       android:text="Login"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
+      app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-      android:onClick="openMain"
       app:layout_constraintTop_toBottomOf="@id/contra" />
 
   <Button
