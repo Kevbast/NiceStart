@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NiceStart"
         tools:targetApi="31">
-
+        <activity
+            android:name=".Splash"
+            android:exported="true" />
         <activity
             android:name=".Login"
             android:exported="true"
@@ -26,18 +28,15 @@
         <activity
             android:name=".Register2"
             android:exported="true"
-            android:theme="@style/TemaPruebaNice"
-            android:parentActivityName=".Login">
-
-        </activity>
-        <!-- le añadimos un tema para la actionbar-->
+            android:parentActivityName=".Login"
+            android:theme="@style/TemaPruebaNice"></activity> <!-- le añadimos un tema para la actionbar -->
         <activity
             android:name=".LoginAlter"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/TemaPruebaNice"/>
+            android:theme="@style/TemaPruebaNice" />
     </application>
 
 </manifest>

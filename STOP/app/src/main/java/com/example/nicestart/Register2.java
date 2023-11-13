@@ -17,4 +17,8 @@ public class Register2 extends AppCompatActivity {
         Intent intent= new Intent(Register2.this, Login.class);
         startActivity(intent);
     }
+    public void openSplash(View v) {
+        Intent intent= new Intent(Register2.this, Splash.class);
+        startActivity(intent);
+    }
 }
