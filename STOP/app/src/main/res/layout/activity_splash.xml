@@ -9,7 +9,7 @@
 
 
     <ImageView
-        android:id="@+id/mario"
+        android:id="@+id/galaxy"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -17,6 +17,7 @@
 
     <ImageView
         android:id="@+id/logo"
+
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="52dp"
@@ -24,4 +25,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mario"
+        android:layout_width="411dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="196dp"
+        app:layout_constraintBottom_toBottomOf="@+id/galaxy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/mario" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
