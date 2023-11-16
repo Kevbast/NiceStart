@@ -15,20 +15,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/chico"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
-
+        <!--app:srcCompat="@drawable/chico"-->
     <ImageView
         android:id="@+id/logo"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="48dp"
-        android:src="@drawable/prickly_pear_svgrepo_com"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toTopOf="parent" />
-
+        <!--android:src="@drawable/prickly_pear_svgrepo_com"-->
 
 
 

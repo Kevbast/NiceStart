@@ -38,7 +38,14 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
     //implementation("com.airbnb.android:lottie:$lottieVersion")
-
+    /*implementvideo
+    implementation ("fileTree(dir: 'libs',include:['*.jar'])")
+    implementation("com.android.support.constraint:constraint-layout-solver:2.0.4")
+    //noinspection GradleCompatible
+    implementation("com.android.support:appcompat-v7:28.0.0")
+    //noinspection GradleCompatible
+    implementation("com.android.support:recyclerview-v7:28.0.0")
+    */
     implementation("com.github.bumptech.glide:glide:4.16.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 }

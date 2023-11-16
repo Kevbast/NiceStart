@@ -24,12 +24,15 @@ public class Splash extends AppCompatActivity {
         //para cargar la imagen girl
         ImageView mMario=findViewById(R.id.galaxy);
         Glide.with(this).load("https://i.pinimg.com/originals/c6/3b/32/c63b32aacf8ec3df5fbc92125bc23056.jpg").centerCrop()
-                .transition(DrawableTransitionOptions.withCrossFade(2000))
+                .transition(DrawableTransitionOptions.withCrossFade(500))
 //                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
                 .into(mMario);
         //para foto de perfil etc .circleCrop()
         ImageView mlogo=findViewById(R.id.logo);
+        Glide.with(this).load(R.drawable.ic_launcher_foreground).centerCrop()
+                .transition(DrawableTransitionOptions.withCrossFade(500))
+                .into(mlogo);
         //Glide.with(this).load(R.drawable.ic_launcher_foreground).centerCrop().into(mlogo);
         /*ANIMATION
 
@@ -53,12 +56,12 @@ public class Splash extends AppCompatActivity {
                 this, R.anim.alpha_fade_in_animation1);
 
         mlogo.startAnimation(alpha);
-        //ANIMACION PARA OTRA IMAGEN
+        /*ANIMACION PARA OTRA IMAGEN
         ImageView marioA=findViewById(R.id.mario);
 
         Animation alpha2 = AnimationUtils.loadAnimation(
                 this, R.anim.alpha_fade_out_animation1);
-        marioA.startAnimation(alpha2);
+        marioA.startAnimation(alpha2);*/
     }
     private void openApp(){
         Handler handler = new Handler();
@@ -68,6 +71,7 @@ public class Splash extends AppCompatActivity {
                 Intent intent = new Intent(Splash.this, Login.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
             }
         },7000);
     }
