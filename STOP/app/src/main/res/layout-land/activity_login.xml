@@ -93,6 +93,7 @@
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
       android:onClick="openMain"
+      android:fontFamily="@font/andika_new_basic_bold"
       app:layout_constraintTop_toBottomOf="@id/contra" />
 
   <Button
@@ -110,6 +111,7 @@
       android:id="@+id/guideline2"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:fontFamily="@font/andika_new_basic_bold"
       android:orientation="vertical"
       app:layout_constraintGuide_percent="0.35" />
 

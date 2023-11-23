@@ -28,4 +28,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent= new Intent(MainActivity.this, Register2.class);
         startActivity(intent);
     }
+    public void openNonepeople(View v) {
+        Intent intent= new Intent(MainActivity.this, Nopeople.class);
+        startActivity(intent);
+    }
 }

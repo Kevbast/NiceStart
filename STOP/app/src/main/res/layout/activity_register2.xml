@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:hint="Nombre:"
+            android:fontFamily="@font/andika_new_basic_bold"
             android:alpha="0.6"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -67,6 +68,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:hint="Apellidos:"
+            android:fontFamily="@font/andika_new_basic_bold"
             android:alpha="0.6"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -87,6 +89,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:hint="Email:"
+            android:fontFamily="@font/andika_new_basic_bold"
             android:alpha="0.6"></EditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -107,6 +110,7 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:hint="Contraseña:"
+            android:fontFamily="@font/andika_new_basic_bold"
             android:inputType="textPassword"
             android:maxLines="1"
             android:alpha="0.6"
@@ -132,6 +136,7 @@
             android:background="@color/white"
             android:hint="Confirmar contraseña:"
             android:inputType="textPassword"
+            android:fontFamily="@font/andika_new_basic_bold"
             android:maxLines="1"
             android:alpha="0.6"
             />
@@ -142,6 +147,7 @@
         android:id="@+id/login"
         style="@style/ButtonFlat"
         android:text="Registrarse"
+        android:fontFamily="@font/andika_new_basic_bold"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         android:onClick="openSplash"
@@ -152,6 +158,7 @@
         android:id="@+id/cancelar"
         style="@style/buttonoutlined"
         android:text="Cancelar"
+        android:fontFamily="@font/andika_new_basic_bold"
         app:layout_constraintEnd_toEndOf="@id/guideline3"
         app:layout_constraintStart_toStartOf="@id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/login"

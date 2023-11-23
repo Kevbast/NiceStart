@@ -37,7 +37,9 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-    //implementation("com.airbnb.android:lottie:$lottieVersion")
+    //para el swipe
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation("com.airbnb.android:lottie:4.0.0")
     /*implementvideo
     implementation ("fileTree(dir: 'libs',include:['*.jar'])")
     implementation("com.android.support.constraint:constraint-layout-solver:2.0.4")

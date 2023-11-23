@@ -89,6 +89,7 @@
       style="@style/ButtonFlat"
       android:onClick="openMain"
       android:text="Login"
+      android:fontFamily="@font/andika_new_basic_bold"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintHorizontal_bias="0.0"
       app:layout_constraintStart_toStartOf="@id/guideline2"
@@ -99,6 +100,7 @@
       style="@style/buttonoutlined"
       android:onClick="openRegister"
       android:text="signup"
+      android:fontFamily="@font/andika_new_basic_bold"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
       app:layout_constraintTop_toBottomOf="@+id/login" />
