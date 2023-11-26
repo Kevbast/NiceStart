@@ -55,6 +55,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:hint="username"
+        android:fontFamily="@font/andika_new_basic_bold"
         android:alpha="0.6"></EditText>
 
   </com.google.android.material.textfield.TextInputLayout>
@@ -76,6 +77,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:hint="password"
+        android:fontFamily="@font/andika_new_basic_bold"
         android:inputType="textPassword"
         android:maxLines="1"
         android:alpha="0.6"

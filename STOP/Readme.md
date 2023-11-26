@@ -26,8 +26,15 @@
 >
 > La imagen esta implementada con `Guide` y `animada`.
 ### *NOPEOPLE*
-![Nopeople activity](img/Nopeople.png)
+![Nopeople activity](img/Nopeople.png)![Nopeople activity](img/jsonanimation.png)
 
->Esta es `otra página` creada para el uso de las `WEBVIEW` y el `SWIPEREFRESH`,cada vez que **se refresca** la *pantalla* se `*genera otra imagen*` distinta y **aparece un mensaje** creado;
+>Esta es `otra página` creada para el uso de las `WEBVIEW` y el `SWIPEREFRESH`,cada vez que **se refresca** la *pantalla* se `*genera otra imagen*` distinta y **aparece un mensaje** creado.
+>
+> *He añadido una `animación de lottie` usando un archivo **json***.
 
+### Carga_Register
+![Carga_Register](img/CargaRegister.png)
+>*Por último he añadido otro activity el cual **está comunicado con los activities Login y Main**,esta ventana hace de comunicador simulando `una pantalla de carga` que te enlaza con la **ventana Register**.*
+>
+> *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
 Y aquí podréis visitar mi perfil: [Kevin](https://github.com/Kevbast)

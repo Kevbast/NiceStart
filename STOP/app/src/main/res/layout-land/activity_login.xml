@@ -30,6 +30,7 @@
       app:layout_constraintTop_toTopOf="parent" />
 
   <View
+      android:id="@+id/view"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:alpha="0.1"
@@ -55,9 +56,10 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:alpha="0.6"
         android:background="@color/white"
-        android:hint="username"
-        android:alpha="0.6"></EditText>
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:hint="username"></EditText>
 
   </com.google.android.material.textfield.TextInputLayout>
 
@@ -78,6 +80,7 @@
         android:layout_height="wrap_content"
         android:background="@color/white"
         android:hint="password"
+        android:fontFamily="@font/andika_new_basic_bold"
         android:inputType="textPassword"
         android:maxLines="1"
         android:alpha="0.6"
@@ -89,22 +92,26 @@
   <Button
       android:id="@+id/login"
       style="@style/ButtonFlat"
+      android:layout_marginTop="2dp"
+      android:layout_marginBottom="2dp"
+      android:fontFamily="@font/andika_new_basic_bold"
+      android:onClick="openMain"
       android:text="Login"
+      app:layout_constraintBottom_toTopOf="@+id/signup"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-      android:onClick="openMain"
-      android:fontFamily="@font/andika_new_basic_bold"
       app:layout_constraintTop_toBottomOf="@id/contra" />
 
   <Button
       android:id="@+id/signup"
       style="@style/buttonoutlined"
-      android:text="signup"
+      android:layout_marginBottom="25dp"
       android:onClick="openRegister"
+      android:text="signup"
+      app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="@id/guideline3"
       app:layout_constraintStart_toStartOf="@id/guideline2"
-      app:layout_constraintTop_toBottomOf="@+id/login"
-       />
+      app:layout_constraintTop_toBottomOf="@+id/login" />
 
 <!--LAS CONSTRAINTS -->
   <androidx.constraintlayout.widget.Guideline

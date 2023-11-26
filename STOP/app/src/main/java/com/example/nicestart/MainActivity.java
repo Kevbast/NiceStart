@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void openRegister(View v) {
-        Intent intent= new Intent(MainActivity.this, Register2.class);
+        Intent intent= new Intent(MainActivity.this, Carga_Register.class);
         startActivity(intent);
     }
     public void openNonepeople(View v) {
