@@ -3,7 +3,9 @@
 > Este **repositorio** será usado para las distintas acciones:
 * Aprendizaje
 * Estudio
+```
 > A continuación voy a presentar **mi proyecto** y su estructura:
+```
 #### *LOGIN*
 ![login activity](img/LoginFoto.png)
 
