@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "AroundGit2"
 include(":app")
+include(":app")
  

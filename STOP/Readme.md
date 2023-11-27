@@ -1,6 +1,8 @@
 # Bienvenidos a mi README
 
-> Este **repositorio** será usado para las distintas acciones  
+> Este **repositorio** será usado para las distintas acciones:
+* Aprendizaje
+- Estudio
 > A continuación voy a presentar **mi proyecto** y su estructura:
 #### *LOGIN*
 ![login activity](img/LoginFoto.png)
@@ -37,4 +39,14 @@
 >*Por último he añadido otro activity el cual **está comunicado con los activities Login y Main**,esta ventana hace de comunicador simulando `una pantalla de carga` que te enlaza con la **ventana Register**.*
 >
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
-Y aquí podréis visitar mi perfil: [Kevin](https://github.com/Kevbast)
+
+
+[![miduvev's github stats](https://github-readme-stats.vercel.app/api?username=NiceStart)](https://github.com/kevbast/github-readme-stats)
+
+## Expresiones de Gratitud 🎁
+* Comenta a otros sobre este proyecto 📢
+* Tómate un café ☕.
+* Da las gracias públicamente 🤓.
+* etc.
+---
+⌨️ con ❤️ por  [Kevin](https://github.com/Kevbast)
