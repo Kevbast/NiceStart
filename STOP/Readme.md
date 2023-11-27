@@ -1,5 +1,5 @@
 *<h1 align="center">Bienvenidos a mi ReadMe</h1>*
-[hoja.json](img/hoja.json)
+
 > Este **repositorio** será usado para las distintas acciones:
 * Aprendizaje
 * Estudio
