@@ -1,8 +1,8 @@
-# Bienvenidos a mi README
+*<h1 align="center">Bienvenidos a mi ReadMe</h1>*
 
 > Este **repositorio** será usado para las distintas acciones:
 * Aprendizaje
-- Estudio
+* Estudio
 > A continuación voy a presentar **mi proyecto** y su estructura:
 #### *LOGIN*
 ![login activity](img/LoginFoto.png)
@@ -41,7 +41,7 @@
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
 
 
-[![miduvev's github stats](https://github-readme-stats.vercel.app/api?username=NiceStart)](https://github.com/kevbast/github-readme-stats)
+[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=NiceStart)](https://github.com/anuragaghazra/github-readme-stats)
 
 ## Expresiones de Gratitud 🎁
 * Comenta a otros sobre este proyecto 📢
