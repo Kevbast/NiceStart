@@ -1,5 +1,5 @@
 *<h1 align="center">Bienvenidos a mi ReadMe</h1>*
-
+[hoja.json](img/hoja.json)
 > Este **repositorio** será usado para las distintas acciones:
 * Aprendizaje
 * Estudio
@@ -26,7 +26,7 @@
 ![splash activity](img/Splash.png)
 > En esta imagen se puede observar una **nueva actividad** creada,la cual su única función es usarla como `pantalla de carga` en la *actividad Login*.
 >
-> La imagen esta implementada con `Guide` y `animada`.
+> La imagen está implementada con `Guide` y `animada`.
 ### *NOPEOPLE*
 ![Nopeople activity](img/Nopeople.png)![Nopeople activity](img/jsonanimation.png)
 
@@ -40,8 +40,7 @@
 >
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
 
-
-[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=NiceStart)](https://github.com/anuragaghazra/github-readme-stats)
+<!--[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=Kevbast)](https://github.com/anuragaghazra/github-readme-stats)-->
 
 ## Expresiones de Gratitud 🎁
 * Comenta a otros sobre este proyecto 📢
