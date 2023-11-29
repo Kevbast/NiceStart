@@ -33,6 +33,6 @@ public class Carga_Register extends AppCompatActivity {
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
-        },10000);
+        },5000);
     }
 }

@@ -41,7 +41,22 @@
 >*Por último he añadido otro activity el cual **está comunicado con los activities Login y Main**,esta ventana hace de comunicador simulando `una pantalla de carga` que te enlaza con la **ventana Register**.*
 >
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
-[AnimacionCarga_Resgiter.mp4](img/AnimacionCarga_Resgiter.mp4)
+>
+> _Ahora voy a enseñar la **función** que he utilizado para `comunicar` las ventanas:_
+>
+  ```
+  private void openApp(){
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(Carga_Register.this, Register2.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+            }
+        },5000);
+  ```
 <!--[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=Kevbast)](https://github.com/anuragaghazra/github-readme-stats)-->
 
 ## Expresiones de Gratitud 🎁
