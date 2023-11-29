@@ -16,7 +16,28 @@
 ![Register Activity](img/img.png)
 >*Esta es la otra `ventana`,la cual **está comunicada** con la anterior imagen*.
 > Se puede visualizar que tiene las **mismas característcas** o *parecidas* a la otra ventana.
-
+>
+> Este es el **código** de unas de las `propiedades xml`,el editText.
+```xml
+<com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@id/guideline3"
+        app:layout_constraintStart_toStartOf="@id/guideline2"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        app:startIconDrawable="@drawable/userna"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Nombre:"
+            android:fontFamily="@font/andika_new_basic_bold"
+            android:alpha="0.6"></EditText>
+</com.google.android.material.textfield.TextInputLayout>
+```
 #### *MAIN*
 ![main activity](img/main.png)![main activity](img/land.png)
 >He creado `otra ventana`  que está ~~enlazada~~ con la pantalla **login y register**,tiene una **barra superior** al igual que la de Register pero **sin la flecha** para volver hacia atrás.
@@ -30,7 +51,7 @@
 >
 > La imagen está implementada con `Guide` y `animada`.
 >Voy a enseñar alugnas de las funciones que tengo en mi código:
-````
+```
 //Para cargar la imagen de fondo
         ImageView mMario=findViewById(R.id.galaxy);
         Glide.with(this).load("https://i.pinimg.com/originals/c6/3b/32/c63b32aacf8ec3df5fbc92125bc23056.jpg").centerCrop()
@@ -38,9 +59,9 @@
 //                .diskCacheStrategy(DiskCacheStrategy.ALL)
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
                 .into(mMario);
-````
+```
 ### *NOPEOPLE*
-![Nopeople activity](img/Nopeople.png)![Nopeople activity](img/jsonanimation.png)
+![Nopeople activity](img/Nopeople.png)![Nopeople activity](img/jsonanimation.png)![Nopeople.gif](img/Nopeople.gif)
 
 >Esta es `otra página` creada para el uso de las `WEBVIEW` y el `SWIPEREFRESH`,cada vez que **se refresca** la *pantalla* se `*genera otra imagen*` distinta y **aparece un mensaje** creado.
 >
@@ -53,8 +74,7 @@
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
 >
 > _Ahora voy a enseñar la **función** que he utilizado para `comunicar` las ventanas:_
->
-  ```
+```
   private void openApp(){
         Handler handler = new Handler();
         handler.postDelayed(new Runnable() {
@@ -66,7 +86,7 @@
                 startActivity(intent);
             }
         },5000);
-  ```
+```
 <!--[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=Kevbast)](https://github.com/anuragaghazra/github-readme-stats)-->
 
 ## Expresiones de Gratitud 🎁
