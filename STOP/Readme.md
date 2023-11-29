@@ -25,10 +25,20 @@
 >
 >Se puede observar también que tiene un `layout land`,en el cual *modifiqué* para que se pueda ver **mejor posicionado**.
 ### *SPLASH*
-![splash activity](img/Splash.png)
+![splash activity](img/Splash.png)![Splash.gif](img/Splash.gif)
 > En esta imagen se puede observar una **nueva actividad** creada,la cual su única función es usarla como `pantalla de carga` en la *actividad Login*.
 >
 > La imagen está implementada con `Guide` y `animada`.
+>Voy a enseñar alugnas de las funciones que tengo en mi código:
+````
+//Para cargar la imagen de fondo
+        ImageView mMario=findViewById(R.id.galaxy);
+        Glide.with(this).load("https://i.pinimg.com/originals/c6/3b/32/c63b32aacf8ec3df5fbc92125bc23056.jpg").centerCrop()
+                .transition(DrawableTransitionOptions.withCrossFade(500))
+//                .diskCacheStrategy(DiskCacheStrategy.ALL)
+                .placeholder(new ColorDrawable(this.getResources().getColor(R.color.teal_200)))
+                .into(mMario);
+````
 ### *NOPEOPLE*
 ![Nopeople activity](img/Nopeople.png)![Nopeople activity](img/jsonanimation.png)
 
