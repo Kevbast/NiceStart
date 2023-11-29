@@ -37,11 +37,11 @@
 > *He añadido una `animación de lottie` usando un archivo **json***.
 
 ### Carga_Register
-![Carga_Register](img/CargaRegister.png)
+![Carga_Register](img/CargaRegister.png)![Carga_R.gif](img/Carga_R.gif)
 >*Por último he añadido otro activity el cual **está comunicado con los activities Login y Main**,esta ventana hace de comunicador simulando `una pantalla de carga` que te enlaza con la **ventana Register**.*
 >
 > *Se puede ver en la imagen que he implementado las funciones `guide` para que aparezca la imagen y he usado una **animación lottie**.*
-
+[AnimacionCarga_Resgiter.mp4](img/AnimacionCarga_Resgiter.mp4)
 <!--[![miNiceStart's github stats](https://github-readme-stats.vercel.app/api?username=Kevbast)](https://github.com/anuragaghazra/github-readme-stats)-->
 
 ## Expresiones de Gratitud 🎁
